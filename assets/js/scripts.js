@@ -99,9 +99,9 @@
      --------------------------------------------- */
 
     $('.js_team_member').owlCarousel({
-        items: 4,
+        items: 3,
         loop: true,
-        margin: 5,
+        margin: 4,
         autoplay: false,
         nav:false,
         //navText: ["<a><span></span></a>","<a><span></span></a>"],
@@ -114,7 +114,7 @@
             480: {items: 2, margin: 10, center: true},
             599: {items: 2,  margin: 10},
             768: {items: 3},
-            1170: {items: 4}
+            // 1170: {items: 4}
         }
     });
 
