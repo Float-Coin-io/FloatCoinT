@@ -2,5 +2,6 @@
 deployment:
 tasks:
   - export DEPLOYPATH=/home/floaelhp/public_html/
-  - /bin/cp * $DEPLOYPATH
-  
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp main.css $DEPLOYPATH
+  - /bin/cp main.min.css $DEPLOYPATH
